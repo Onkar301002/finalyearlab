@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Final Year Lab</title>
   <style>
     body {
@@ -10,105 +10,106 @@
       margin: 0;
       padding: 0;
       background-color: #f7f7f7;
+      color: #333;
     }
     header {
       background-color: #2d2dff;
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 1em 0;
     }
-    nav {
-      background-color: #1b1bb3;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-      display: inline-block;
-    }
-    nav a:hover {
-      background-color: #4444dd;
-    }
-    .container {
-      padding: 30px;
-    }
-    .section {
+    section {
       background-color: white;
-      margin-bottom: 20px;
+      margin: 20px auto;
       padding: 20px;
-      border-radius: 6px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    footer {
-      text-align: center;
-      background-color: #2d2dff;
-      color: white;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+    h2 {
+      color: #2d2dff;
+      border-bottom: 2px solid #2d2dff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
     }
-    @media(max-width: 600px) {
-      nav {
-        flex-direction: column;
-      }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .highlight {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>The Final Year Lab</h1>
-    <p>Your Academic Project Partner</p>
+    <h1>Final Year Lab</h1>
   </header>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#booking">Booking</a>
-  </nav>
+  <section id="company-profile">
+    <h2>Company Profile</h2>
+    <p>The Final Year Lab is a Pune-based student empowerment company committed to enhancing college students’ employability through skill-based interview preparation, communication training, and academic project mentorship. Our mission is to bridge the gap between college learning and corporate expectations by equipping students with real-world confidence and competence.</p>
+    <p>We specialize in one-on-one interview coaching, resume building, soft skills development, and structured guidance for final-year academic project reports—ensuring our students stand out in both campus placements and professional environments.</p>
+  </section>
 
-  <div class="container">
-    <div id="home" class="section">
-      <h2>Welcome to The Final Year Lab</h2>
-      <p>We help students complete their final year academic projects with full support — from project reports to viva questions, presentations, and interview coaching.</p>
-    </div>
+  <section id="mission">
+    <h2>💡 Mission Statement</h2>
+    <p>"To empower students with essential communication skills, professional confidence, and guided academic support so they can unlock their true potential and thrive in the real world."</p>
+  </section>
 
-    <div id="services" class="section">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Final Year Report Writing</li>
-        <li>PowerPoint Presentation Creation</li>
-        <li>Project Idea Guidance</li>
-        <li>Viva Question Preparation</li>
-        <li>English Interview Coaching</li>
-      </ul>
-    </div>
+  <section id="homepage">
+    <h2>🏠 Homepage</h2>
+    <p class="highlight">Headline:</p>
+    <p>Empowering Students for Interviews, Careers & Beyond.</p>
+    <p class="highlight">Subtext:</p>
+    <p>Master interviews, develop communication skills, and get expert guidance on final year academic projects—all under one roof.</p>
+    <p class="highlight">Call to Action:</p>
+    <p>🎯 Book Your Free Consultation Today<br>
+    📞 +91-9511726824 | 📩 b4kanade@gmai.com</p>
+  </section>
 
-    <div id="about" class="section">
-      <h2>About Us</h2>
-      <p>Located in Pune, The Final Year Lab was founded to assist students in completing their academic projects with ease and quality. We offer online and offline support to help you succeed.</p>
-    </div>
+  <section id="services">
+    <h2>🧑‍🏫 Our Services</h2>
+    <ul>
+      <li><strong>1. Interview Preparation</strong>
+        <ul>
+          <li>One-on-One Mock Interviews</li>
+          <li>Technical & HR Round Practice</li>
+          <li>Resume & LinkedIn Optimization</li>
+          <li>Group Discussion Training</li>
+        </ul>
+      </li>
+      <li><strong>2. Communication & Soft Skills</strong>
+        <ul>
+          <li>Spoken English Coaching</li>
+          <li>Public Speaking & Presentation Skills</li>
+          <li>Personality Development</li>
+        </ul>
+      </li>
+      <li><strong>3. Academic Project Report Support</strong>
+        <ul>
+          <li>Guidance for Project Planning</li>
+          <li>Report Structuring & Formatting Help</li>
+          <li>Software & Tools Mentoring</li>
+          <li>Plagiarism-Free Documentation Tips</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-    <div id="contact" class="section">
-      <h2>Contact Us</h2>
-      <p><strong>Phone:</strong> 9511726824</p>
-      <p><strong>Email:</strong> yourlab@gmail.com</p>
-      <p><strong>Address:</strong> 303, Narayan Chambers, Sr. No. 177/1, Behind Vitthal Petrol Pump, Bhekrai Nagar, Pune - 412308</p>
-    </div>
+  <section id="why-choose-us">
+    <h2>📌 Why Choose Us?</h2>
+    <ul>
+      <li>✅ Experienced Trainers & Mentors</li>
+      <li>✅ Personalized Attention</li>
+      <li>✅ Affordable Student Packages</li>
+      <li>✅ 100% Practical & Result-Oriented</li>
+    </ul>
+  </section>
 
-    <div id="booking" class="section">
-      <h2>Book a Free Consultation</h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz_placeholder_form_link/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      <p>Note: Replace the Google Form embed link with your actual form link.</p>
-    </div>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 The Final Year Lab. All rights reserved.</p>
-  </footer>
 </body>
 </html>
